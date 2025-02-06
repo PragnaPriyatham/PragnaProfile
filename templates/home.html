@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Developer Burhan</title>
+  <title>Pragna</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -34,6 +34,66 @@
   <link href="{% static 'css/style.css' %}" rel="stylesheet">
 
 
+
+
+
+<!--style for table-skills-->
+
+
+
+  <style>
+    .skills-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+
+    .skills-table th,
+    .skills-table td {
+      padding: 12px 20px;
+      text-align: left;
+      border: 1px solid #ddd;
+      font-size: 1rem;
+    }
+
+    .skills-table th {
+      background-color: #f4f4f4;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .skills-table td {
+      background-color: #f9f9f9;
+    }
+
+    .skills-table tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    /* Responsive Design */
+    @media screen and (max-width: 768px) {
+      .skills-table th,
+      .skills-table td {
+        font-size: 0.9rem;
+      }
+
+      .skills-table {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+
+
+
+
+
+
+
+
+
+
+
+
 </head>
 
 <body>
@@ -47,7 +107,7 @@
 
       <div class="profile">
         <img src="{% static 'img/profile-img.jpg' %}" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Mohammad Burhan</a></h1>
+        <center><h1 class="text-light"><a href="index.html">Pragna Priyatham Kandula</a></h1></center>
         <div class="social-links mt-3 text-center">
           <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
           <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -68,8 +128,9 @@
         <ul>
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+          
           <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Skills</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Projects</span></a></li>
           <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
         </ul>
@@ -80,9 +141,9 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
-      <h1>Mohammad Burhan</h1>
+      <h1 style='color:red'>Pragna Priyatham</h1>
       <p>I'm <span class="typed"
-          data-typed-items="Designer, Developer, Freelancer, Full-Stack Developer, Python Developer."></span></p>
+          data-typed-items=" Developer, Full-Stack Developer, Python Developer."></span></p>
     </div>
 
   </section><!-- End Hero -->
@@ -98,112 +159,49 @@
 
         <div class="section-title">
           <h2>About</h2>
-          <p>I am a developer with experience in Python and Odoo, as well as a range of other skills including full
-            stack development, JavaScript, Bootstrap, and Figma. I have completed several individual projects and am
-            always looking for new opportunities and challenges to improve my skills and advance my career. I am
-            currently seeking new opportunities and am excited to tackle challenging problems and grow as a developer.
+          <p>
+            <div class="max-w-4xl mx-auto text-center">
+
+              <p class="text-xl text-gray-600 mb-4">
+                Hello! I'm <strong>Pragna Priyatham Kandula</strong>, a passionate <strong>Full Stack Developer</strong> and <strong>Data Scientist</strong> with a strong background in <strong>AI/ML</strong>, <strong>cloud computing</strong>, and <strong>web development</strong>. With a deep interest in solving real-world problems using cutting-edge technology, I specialize in building scalable web applications and data-driven solutions.
+              </p>
+              <p class="text-xl text-gray-600 mb-6">
+                I have a rich experience in <strong>Python</strong>, <strong>Django</strong>, <strong>Machine Learning</strong>, <strong>AI</strong>, and various <strong>cloud technologies</strong> like <strong>AWS</strong> and <strong>GCP</strong>, and have worked on numerous impactful projects across different domains.
+              </p>
+              <br>
+
+
+
+
+              <h3 class="text-2xl font-semibold text-gray-800 mb-4">My Journey</h3>
+              <p class="text-lg text-gray-600 mb-6">
+                From building full-stack applications to integrating <strong>AI models</strong> for real-time predictions, I have contributed to several impactful projects that leverage <strong>Python</strong>, <strong>Django</strong>, and advanced <strong>data science</strong> tools. I am always eager to dive into new technologies like <strong>Docker</strong>, <strong>Kubernetes</strong>, and <strong>Generative AI</strong> to improve my skills and stay ahead in the tech world.
+              </p>
+              <br>
+
+
+
+              <h3 class="text-2xl font-semibold text-gray-800 mb-4">What I Do</h3>
+              <div class="text-lg text-gray-600 mb-6 space-y-4">
+                <p><strong>Web Development</strong>: Creating fast, responsive, and user-friendly web applications using <strong>Django</strong>, <strong>HTML5</strong>, <strong>CSS3</strong>, and <strong>JavaScript</strong>.</p>
+                <p><strong>Data Science</strong>: Applying machine learning techniques using <strong>TensorFlow</strong>, <strong>Scikit-learn</strong>, and <strong>Pandas</strong> to derive insights and automate processes.</p>
+                <p><strong>AI Integration</strong>: Developing <strong>AI-based solutions</strong> like chatbots, recommendation systems, and predictive models for business growth.</p>
+                <p><strong>Cloud Solutions</strong>: Building scalable systems using cloud platforms like <strong>AWS</strong> and <strong>Google Cloud</strong> to ensure seamless deployment and management.</p>
+              </div>
+              <br>
+              
+              
+              <h3 class="text-2xl font-semibold text-gray-800 mb-4">Why I Love What I Do</h3>
+              <p class="text-lg text-gray-600">
+                The intersection of <strong>technology</strong> and <strong>data</strong> excites me. Whether it's building an intuitive web application or implementing a deep learning model, I enjoy tackling challenges and bringing innovative solutions to life.
+              </p>
+
           </p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="{% static 'img/profile-img.jpg' %}" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Python &amp; Web Developer &amp; Odoo Developer &amp;Javascript &amp; Full-Stack.</h3>
-            <p class="fst-italic">
-            </p>
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>linkedin</strong> <span>www.example.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 7036037203</span></li>
-
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
-                    <span>burhanmohammad1234@outlook.com</span>
-
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor of Technology/span>
-                  </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Vijayawada, Andhra Pradesh,
-                      India</span></li>
-                  </li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Opportunities</strong> <span>Available</span></li>
-                </ul>
-              </div>
-            </div>
-            <p>
-            </p>
-          </div>
         </div>
 
       </div>
     </section><!-- End About Section -->
 
-    {% comment %} <!-- ======= Facts Section ======= -->
-    <section id="facts" class="facts">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>journey(Roadmap)</h2>
-          <p>As a learning full stack developer my journey in the tech industry has been an exciting
-            and rewarding one. I began my career by learning the fundamentals of programming and completing various
-            online courses and tutorials. From there, I took on several individual projects and continued to expand my
-            skillset, eventually landing my first job as a developer.
-
-            Throughout my career in the industry, I have had the opportunity to work on a variety of projects using
-            a range of technologies including Python, JavaScript, and Bootstrap. I have also had the chance to
-            collaborate with a talented team of developers and have learned so much from my colleagues.
-
-            Looking ahead, I am excited to continue growing and learning as a developer. I am eager to take on new
-            challenges and continue to develop my skills and expertise in the field.</p>
-        </div>
-
-        <div class="row no-gutters">
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
-            <div class="count-box">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Happy Clients</strong> consequuntur quae</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="count-box">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Projects</strong> adipisci atque cum quia aut</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="count-box">
-              <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="count-box">
-              <i class="bi bi-people"></i>
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Facts Section --> {% endcomment %}
 
     <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills section-bg">
@@ -211,12 +209,59 @@
 
         <div class="section-title">
           <h2>Skills</h2>
-          <p>I am proficient in a variety of programming languages including Python, JavaScript, and C#. I have
-            experience building full stack web applications using frameworks such as Django and Flask, and am
-            comfortable working with front-end technologies such as HTML, CSS and beck-end such as python. In addition to my experience
-            with web development, I have also completed projects involving data analysis using
-            libraries such as NumPy. I am always looking to expand my skillset and am open to learning
-            new languages and technologies.</p>
+          <div class="container">
+
+
+
+
+
+<div class="container my-5">
+
+  <div class="container my-5">
+    <div class="row g-4">
+        <div class="col-md-4 d-flex">
+            <div class="p-3 border rounded bg-light w-100 text-center">
+                <h4 class="text-primary">Frontend</h4>
+                <p>HTML5, CSS3, XML, Bootstrap3, Bootstrap, AJAX, DOM, jQuery, Angular.js</p>
+            </div>
+        </div>
+        <div class="col-md-4 d-flex">
+            <div class="p-3 border rounded bg-light w-100 text-center">
+                <h4 class="text-success">Backend</h4>
+                <p>Python, Django, PHP, Laravel, RESTful services</p>
+            </div>
+        </div>
+        <div class="col-md-4 d-flex">
+            <div class="p-3 border rounded bg-light w-100 text-center">
+                <h4 class="text-danger">AI/ML & Data Science</h4>
+                <p>NumPy, Pandas, matplotlib, Scikit-learn, TensorFlow, Django-otp, Generative AI, NLP</p>
+                <p>Web Scraping (BeautifulSoup, Requests, Selenium)</p>
+            </div>
+        </div>
+        <div class="col-md-4 d-flex">
+            <div class="p-3 border rounded bg-light w-100 text-center">
+                <h4 class="text-warning">Databases</h4>
+                <p>SQL, MySQL, MongoDB, Snowflake</p>
+            </div>
+        </div>
+        <div class="col-md-4 d-flex">
+            <div class="p-3 border rounded bg-light w-100 text-center">
+                <h4 class="text-info">Cloud & DevOps</h4>
+                <p>AWS, GCP, Docker, Kubernetes, Terraform, Jenkins, Ansible, CI/CD</p>
+            </div>
+        </div>
+        <div class="col-md-4 d-flex">
+            <div class="p-3 border rounded bg-light w-100 text-center">
+                <h4 class="text-primary-subtle">Tools & Other Skills</h4>
+                <p>Visual Studio, Eclipse, PyTest, PyCharm, Jupyter, Anaconda</p>
+                <p>Splunk, CloudWatch</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
         </div>
 
         <div class="row skills-content">
