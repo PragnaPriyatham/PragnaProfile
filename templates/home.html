@@ -109,6 +109,40 @@
             margin-top: 15px;
             font-style: italic;
         }
+
+
+
+        .equal-height {
+            display: flex;
+            align-items: stretch;
+          }
+
+          .equal-height > div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+          }
+          .thank-you-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff; /* Bootstrap primary color */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  border-bottom: 3px solid #007bff;
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.thank-you-text:hover {
+  transform: scale(1.05);
+  color: #0056b3; /* Slightly darker blue on hover */
+}
+
   </style>
 
 
@@ -137,13 +171,9 @@
         <img src="{% static 'img/profile-img.jpg' %}" alt="" class="img-fluid rounded-circle">
         <center><h1 class="text-light"><a href="index.html">Pragna Priyatham Kandula</a></h1></center>
         <div class="social-links mt-3 text-center">
-          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-          <a href="#" class="github"><i class="bx bxl-github"></i></a>
-          <a href="#" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+          <a href="https://www.linkedin.com/in/pragna-priyatham-kandula-a08531100/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/PragnaPriyatham" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+
 
 
 
@@ -170,7 +200,10 @@
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
       <h1 style='color:red'>Pragna Priyatham</h1>
-      <p>I'm <span class="typed"
+      <h2>Welcome to My Digital Space</h2>
+<p>Exploring the intersection of technology, innovation, and problem-solving.</p>
+
+      <p> <span class="typed"
           data-typed-items=" Developer, Full-Stack Developer, Python Developer."></span></p>
     </div>
 
@@ -310,7 +343,7 @@
 
         <div class="section-title">
           <h2>Resume</h2>
-          <iframe src="{% static 'resume/Pragnaresume.pdf' %}" width="100%" height="800px"></iframe>
+          <iframe src="{% static 'resume/forProfile.pdf' %}" width="100%" height="800px"></iframe>
 
           </div>
         
@@ -392,106 +425,118 @@
 
               <div class="section-title">
                 <h2>Contact</h2>
-                <p>Thank you for visiting and spending your valuable time with us. I hope you found what you were looking for.
-
-
-design this in better way
-
-                  I am always open to work on challenging operations and put my skills to use. If you are in need of someone with my skills and experience, please don't hesitate to contact me. I am confident that I can contribute value to your team and help achieve your business goals.
+                <div class="container">
                   
-                  Thank you again for visiting . I am  look forward to hearing from you soon.</p>
+                  <p>
+                      Thank you for taking the time to visit my profile. I hope you found the information you were looking for.
+                  </p>
+                  <br>
+                  <p>
+                      I am always eager to take on challenging projects that allow me to leverage my skills in full-stack development and data science. 
+                      If you are looking for someone with my expertise, I would love to connect and explore opportunities where I can contribute to your team's success.
+                  </p>
+                  <br>
+                  <p>
+                      Feel free to reach out—I look forward to hearing from you!
+                  </p>
+              </div>
               </div>
 
 
             <div class="container">          
+<!-- Contact Section -->
+<div class="container">
+  <div class="row d-flex align-items-stretch justify-content-center">
+    <!-- Contact Information -->
+    <div class="col-lg-5 mb-4">
+      <div class="card shadow-lg border-0 rounded-4 p-4 h-100">
+        <div class="card-body text-center">
+          <h3 class="mb-4 text-primary">Get in Touch</h3>
 
-          
-              <!-- Contact Information -->
-              <div class="row justify-content-center" style="margin-left: auto;margin-right: auto;">
-                <div class="col-lg-5 d-flex align-items-center justify-content-center mb-4">
-                  <div class="info">
-                    <div class="address mb-3">
-                      <i class="bi bi-geo-alt"></i>
-                      <h4>Location:</h4>
-                      <p>Denton, Texas, USA</p>
-                    </div>
-          
-                    <div class="email mb-3">
-                      <i class="bi bi-envelope"></i>
-                      <h4>Email:</h4>
-                      <p>Pragnapriyathamusa@gmail.com</p>
-                    </div>
-          
-                    <div class="phone mb-3">
-                      <i class="bi bi-phone"></i>
-                      <h4>Call:</h4>
-                      <p>+1 (817) 952-9033</p>
-                    </div>
-          
-                    <div class="linkedin mb-3">
-                      <i class="bi bi-linkedin"></i>
-                      <h4>LinkedIn:</h4>
-                      <a href="https://www.linkedin.com/in/pragna-priyatham-kandula-a08531100/" target="_blank">Pragna Priyatham Kandula</a>
-                    </div>
-                  </div>
-                </div>
+          <div class="mb-3">
+            <i class="bi bi-geo-alt text-danger fs-4"></i>
+            <h5 class="mt-2">Location</h5>
+            <p>Denton, Texas, USA</p>
+          </div>
+
+          <div class="mb-3">
+            <i class="bi bi-envelope text-info fs-4"></i>
+            <h5 class="mt-2">Email</h5>
+            <p><a href="mailto:Pragnapriyathamusa@gmail.com" class="text-dark">Pragnapriyathamusa@gmail.com</a></p>
+          </div>
+
+          <div class="mb-3">
+            <i class="bi bi-phone text-success fs-4"></i>
+            <h5 class="mt-2">Phone</h5>
+            <p><a href="tel:+18179529033" class="text-dark">+1 (817) 952-9033</a></p>
+          </div>
+
+          <div>
+            <i class="bi bi-linkedin text-primary fs-4"></i>
+            <h5 class="mt-2">LinkedIn</h5>
+            <p><a href="https://www.linkedin.com/in/pragna-priyatham-kandula-a08531100/" target="_blank" class="text-dark">Pragna Priyatham Kandula</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="col-lg-6">
+      <div class="card shadow-lg border-0 rounded-4 p-4 h-100">
+        <div class="card-body">
+          <h3 class="mb-4 text-primary text-center">Send a Message</h3>
+
+          <form action="/contact" method="post" class="php-email-form">
+            {% csrf_token %}
+
+            <div class="row">
+              <div class="form-group col-md-6 mb-3">
+                <label for="name">Your Name</label>
+                <input type="text" name="name" class="form-control" id="name" required>
               </div>
-          
-              <!-- Contact Form -->
-              <div class="row justify-content-center">
-                <div class="col-lg-7 mt-5">
-                  <form action="/#contact" method="post" class="php-email-form">
-                    {% csrf_token %}
-                    
-                    <div class="row">
-                      <div class="form-group col-md-6 mb-3">
-                        <label for="name">Your Name</label>
-                        <input type="text" name="name" class="form-control" id="name" required>
-                      </div>
-                      <div class="form-group col-md-6 mb-3">
-                        <label for="email">Your Email</label>
-                        <input type="email" class="form-control" name="email" id="email" required>
-                      </div>
-                    </div>
-          
-                    <div class="form-group mb-3">
-                      <label for="subject">Subject</label>
-                      <input type="text" class="form-control" name="subject" id="subject" required>
-                    </div>
-          
-                    <div class="form-group mb-3">
-                      <label for="message">Message</label>
-                      <textarea class="form-control" name="message" id="message" rows="4" required></textarea>
-                    </div>
-          
-                    <div class="my-3">
-                      <div class="loading">Loading...</div>
-                      <div class="sent-message">Your message has been sent. Thank you!</div>
-                    </div>
-          
-                    <div class="text-center">
-                      <button type="submit" class="btn btn-primary">Submit</button>
-                    </div>
-                  </form>
-                </div>
+              <div class="form-group col-md-6 mb-3">
+                <label for="email">Your Email</label>
+                <input type="email" class="form-control" name="email" id="email" required>
               </div>
             </div>
+
+            <div class="form-group mb-3">
+              <label for="subject">Subject</label>
+              <input type="text" class="form-control" name="subject" id="subject" required>
+            </div>
+
+            <div class="form-group mb-3">
+              <label for="message">Message</label>
+              <textarea class="form-control" name="message" id="message" rows="4" required></textarea>
+            </div>
+
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary btn-lg px-4">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+            <br><br>
+
+            <center><h2 class="thank-you-text">Thank You for Visiting</h2></center>
           </section>
           
 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  {% comment %} <footer id="footer">
+  <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Mohammad Burhan</span></strong>
-      </div>
-      <div class="credits">
-        Designed by <a href="www.linkedin.com/in/burhanmohammad">Burhan</a>
+        &copy; Copyright <strong><span>PragnaPriyatham</span></strong>
       </div>
     </div>
-  </footer><!-- End  Footer --> {% endcomment %}
+  </footer><!-- End  Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
