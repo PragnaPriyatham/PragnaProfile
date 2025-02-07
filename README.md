@@ -1,7 +1,3 @@
-Sure! Here's the modified README file with your name, Pragna Priyatham Kandula:
-
----
-
 # My Personal Portfolio Website (Django)
 
 Personal portfolio website built using the Django framework for the backend, with CSS, JS, and Bootstrap for the frontend. It is a dynamic site that allows you to control the content of the site through the admin area.
@@ -88,6 +84,3 @@ Follow the steps below to run the project locally:
 
 - [@Pragna Priyatham Kandula](https://github.com/PragnaPriyatham)
 
----
-
-Let me know if you need any further changes!
