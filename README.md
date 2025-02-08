@@ -22,7 +22,10 @@ Below are some key features of the website displayed visually:
 
 ## 🔗 Links
 
+
 [![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pragna-priyatham-kandula-a08531100/)
+
+
 
 ## 🛠 Skills
 
